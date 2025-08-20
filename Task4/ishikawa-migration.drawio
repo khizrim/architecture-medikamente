@@ -1,0 +1,244 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Page-1" id="4fc8d65c-f3f6-feb3-4d1c-02f59d9f9886">
+    <mxGraphModel dx="2757" dy="1018" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Инфраструктура" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="2.9983333333332354" y="69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Персонал" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="2.9983333333332354" y="433" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Снижение производительности и надёжности при миграции с монолита на микросервисы»" style="whiteSpace=wrap;strokeWidth=3;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="680" y="246" width="195" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=none;strokeWidth=4" parent="1" target="8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="sourcePoint" />
+            <mxPoint x="240" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" parent="1" source="2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="96.45833333333323" y="190" as="sourcePoint" />
+            <mxPoint x="156.45833333333323" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="21.458333333333236" y="159" as="sourcePoint" />
+            <mxPoint x="81.45833333333323" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="41.45833333333323" y="193.89" as="sourcePoint" />
+            <mxPoint x="101.45833333333323" y="193.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="60.99833333333323" y="225.00000000000003" as="sourcePoint" />
+            <mxPoint x="120.99833333333322" y="225.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="114" value="Серверы не выдерживают &#xa;5-кратного роста клиентов" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="-100" y="150" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="База данных узкое место — &#xa;один экземпляр, &#xa;нет масштабирования" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="-66.00166666666678" y="184.99999999999994" width="30" height="19.999999999999886" as="geometry" />
+        </mxCell>
+        <mxCell id="144" value="Процессы" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="260" y="432.99999999999994" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-266" value="Нет отказоустойчивости: &#xa;всё на одном физическом сервере" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="-43.31" y="220" width="109.77" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-267" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="83" y="257.7" as="sourcePoint" />
+            <mxPoint x="143" y="257.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-268" value="Отсутствует централизованный &#xa;мониторинг и алертинг" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="-19" y="248.89" width="109.77" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-271" value="Программное обеспечение" style="whiteSpace=wrap;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="268" y="69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-272" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" edge="1" parent="1" source="vKKXSm9sTt9kXrAt8k-Y-271">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="361.46000000000004" y="190" as="sourcePoint" />
+            <mxPoint x="421.46000000000004" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-273" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="286.46000000000004" y="159" as="sourcePoint" />
+            <mxPoint x="346.46000000000004" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-274" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="306.46000000000004" y="193.89" as="sourcePoint" />
+            <mxPoint x="366.46000000000004" y="193.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-275" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="326" y="225.00000000000003" as="sourcePoint" />
+            <mxPoint x="386" y="225.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-276" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="348.0016666666668" y="257.7" as="sourcePoint" />
+            <mxPoint x="408.0016666666668" y="257.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-277" value="Интеграция" style="whiteSpace=wrap;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="499" y="69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-278" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" edge="1" parent="1" source="vKKXSm9sTt9kXrAt8k-Y-277">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="592.46" y="190" as="sourcePoint" />
+            <mxPoint x="652.46" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-279" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="517.46" y="159" as="sourcePoint" />
+            <mxPoint x="577.46" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-280" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="537.46" y="193.89" as="sourcePoint" />
+            <mxPoint x="597.46" y="193.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-281" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="557" y="225.00000000000003" as="sourcePoint" />
+            <mxPoint x="617" y="225.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-282" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="579.0016666666668" y="257.7" as="sourcePoint" />
+            <mxPoint x="639.0016666666668" y="257.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-286" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="61.54166666666674" y="433" as="sourcePoint" />
+            <mxPoint x="155" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-287" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="142.54166666666674" y="300.99857142857064" as="sourcePoint" />
+            <mxPoint x="82.54166666666674" y="300.99857142857064" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-288" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="122.54166666666674" y="335.8885714285711" as="sourcePoint" />
+            <mxPoint x="62.54166666666674" y="335.8885714285711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-289" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="103.00166666666678" y="366.9985714285711" as="sourcePoint" />
+            <mxPoint x="43.00166666666678" y="366.9985714285711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-290" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="81" y="399.69857142857154" as="sourcePoint" />
+            <mxPoint x="21" y="399.69857142857154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-293" value="Декомпозиция монолита &#xa;на микросервисы проведена &#xa;неравномерно" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="172" y="150" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-294" value="API между сервисами несогласованны, &#xa;разные форматы данных.&#xa;" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="188" y="185" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-295" value="Технический долг и &#xa;старый код мешают рефакторингу" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="214" y="217" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-296" value="Слабая автоматизация &#xa;тестирования" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="234" y="248.89" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-297" value="Сложность синхронизации данных&#xa; между «старым» и «новым» ландшафтом" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="369.46" y="150" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-298" value="Проблемы с обменом данными: &#xa;разные протоколы (OLE ↔ REST)" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="403" y="185" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-299" value="Потенциальные задержки &#xa;и дублирование при интеграции через шину" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="423" y="217" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-300" value="Лаборатории и платёжные системы&#xa; не поддерживают гибкие API" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="449" y="248.89" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-301" value="Недостаток опыта работы с Kubernetes, &#xa;микросервисами, шиной данных" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="-48" y="291" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-302" value="Нет DevOps-экспертизы &#xa;(CI/CD, IaC)" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="-65" y="327" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-303" value="Сопротивление изменениям со стороны&#xa; сотрудников (привычка к Excel &#xa;и 1С в файловом режиме)" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="-86" y="359" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-304" value="Недостаточная документация &#xa;новых систем" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="-107" y="392" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-305" value="" style="edgeStyle=none;exitX=0.5;exitY=1;strokeWidth=3" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="326.54166666666674" y="433" as="sourcePoint" />
+            <mxPoint x="420" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-306" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="407.54166666666674" y="300.99857142857064" as="sourcePoint" />
+            <mxPoint x="347.54166666666674" y="300.99857142857064" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-307" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="387.54166666666674" y="335.8885714285711" as="sourcePoint" />
+            <mxPoint x="327.54166666666674" y="335.8885714285711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-308" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="368.0016666666668" y="366.9985714285711" as="sourcePoint" />
+            <mxPoint x="308.0016666666668" y="366.9985714285711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-309" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="346" y="399.69857142857154" as="sourcePoint" />
+            <mxPoint x="286" y="399.69857142857154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-310" value="Нет отлаженного CI/CD → &#xa;релизы ручные, риск ошибок.&#xa;" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="237" y="291" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-311" value="Отсутствует регламент &#xa;отката и отказоустойчивости" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="213" y="327" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-312" value="Тестирование проводится &#xa;вручную, не покрывает интеграции" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="191" y="359" width="132.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKXSm9sTt9kXrAt8k-Y-313" value="Нет централизованного контроля &#xa;безопасности при обмене данными" style="text;spacingTop=-5;fontSize=8;align=left;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="170" y="392" width="132.46" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
